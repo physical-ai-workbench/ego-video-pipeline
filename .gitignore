@@ -38,3 +38,7 @@ annotations/*.json
 *.log
 *.tmp
 *.temp
+
+# AI coding tools
+.claude/
+.agents/
