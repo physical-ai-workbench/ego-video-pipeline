@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Raw / processed videos
+data/raw/*
+data/processed/*
+data/clips/*
+
+# Keep folders in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/clips/.gitkeep
+
+# Generated annotations
+annotations/*.csv
+annotations/*.json
+
+# Keep annotation folder
+!annotations/.gitkeep
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
